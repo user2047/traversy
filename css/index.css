@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    min-height: 70px;
+    background-color: #35424a;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #205cbc;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    color: #205cbc;
+    font-weight: lighter;
+    font-size: 48px;
+    margin: 11px 0 0 0;
+    padding: 0;
+}
+
+
+
+nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    border-radius: 5px;
+    margin: 19px 0 0 0;
+    padding: 0;
+}
+
+
+
+header li {
+    float: left;
+    display: inline;
+    background-color: #35424a;
+    width: 150px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 28px;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    text-align: center;
+    font-weight: light;
+}
+
+header ul li a:hover {
+    border-bottom: 3px solid #205cbc;
+}
+
+header ul li a:active {
+    border-bottom: 3px solid white;
+}
+
+#selected {
+    border-bottom: 3px solid white;
+}
+
+
+a:focus {
+    outline: none;
+}
+
+
+header div {
+    float: right;
+    margin-top: 11px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: 205cbc;
+
+
+
+
